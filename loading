@@ -1,0 +1,11 @@
+local place = game.PlaceId
+
+-- Detects Whats Game Ur On.
+
+if place == 8628792096 then --FiveR
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ReaperWareAuth/Loader/main/fiver'),true))()
+elseif place == 11328341049 then -- Denhaag
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ReaperWareAuth/Loader/main/DenHaag'),true))()
+elseif place == 10275665167 then -- Sloks
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ReaperWareAuth/Loader/main/Sloks'),true))()
+end
